@@ -152,109 +152,94 @@ function Home() {
       </section>
 
       {/* HOW IT WORKS */}
-      <section className="how-section" id="how-it-works">
-        <div className="section-container">
+      {/* HOW IT WORKS */}
+<section className="how-section" id="how-it-works">
+  <div className="section-container">
 
-          <div className="section-heading center">
-            <span>HOW IT WORKS</span>
-            <h2>From leftover to useful.</h2>
-            <p>
-              Drop2Life creates a simple journey for every recovered
-              drop.
-            </p>
-          </div>
+    <div className="section-heading center">
+      <span>HOW IT WORKS</span>
+      <h2>From leftover to useful.</h2>
+      <p>
+        Drop2Life creates a simple journey for every recovered drop.
+      </p>
+    </div>
 
-          <div className="steps">
+    <div className="steps">
 
-            <div className="step">
-              <div className="step-number">01</div>
-              <div className="step-icon">🧴</div>
-              <h3>Collect</h3>
-              <p>
-                Leftover drinking water is collected at a Drop2Life
-                point.
-              </p>
-            </div>
+      {/* COLLECT */}
+      <div className="step">
+        <div className="step-number">01</div>
+        <div className="step-icon">🧴</div>
 
-            <div className="step-arrow">→</div>
+        <h3>Collect</h3>
 
-            <div className="step">
-              <div className="step-number">02</div>
-              <div className="step-icon">🛢️</div>
-              <h3>Store</h3>
-              <p>
-                Collected water moves into a dedicated collection
-                tank.
-              </p>
-            </div>
+        <p>
+          Leftover drinking water is collected at a Drop2Life point.
+        </p>
 
-            <div className="step-arrow">→</div>
+        <button className="learn-more-btn">
+          Learn More →
+        </button>
+      </div>
 
-            <div className="step">
-              <div className="step-number">03</div>
-              <div className="step-icon">📏</div>
-              <h3>Measure</h3>
-              <p>
-                Sensors help measure the amount of recovered water.
-              </p>
-            </div>
+      <div className="step-arrow">→</div>
 
-            <div className="step-arrow">→</div>
+      {/* STORE */}
+      <div className="step">
+        <div className="step-number">02</div>
+        <div className="step-icon">🛢️</div>
 
-            <div className="step">
-              <div className="step-number">04</div>
-              <div className="step-icon">♻️</div>
-              <h3>Reuse</h3>
-              <p>
-                Suitable water is directed towards approved
-                non-drinking uses.
-              </p>
-            </div>
+        <h3>Store</h3>
 
-          </div>
+        <p>
+          Collected water moves into a dedicated collection tank.
+        </p>
 
-        </div>
-      </section>
+        <button className="learn-more-btn">
+          Learn More →
+        </button>
+      </div>
+
+      <div className="step-arrow">→</div>
+
+      {/* MEASURE */}
+      <div className="step">
+        <div className="step-number">03</div>
+        <div className="step-icon">📏</div>
+
+        <h3>Measure</h3>
+
+        <p>
+          Sensors help measure the amount of recovered water.
+        </p>
+
+        <button className="learn-more-btn">
+          Learn More →
+        </button>
+      </div>
+
+      <div className="step-arrow">→</div>
 
       {/* REUSE */}
-      <section className="reuse-section">
-        <div className="section-container">
+      <div className="step">
+        <div className="step-number">04</div>
+        <div className="step-icon">♻️</div>
 
-          <div className="section-heading center">
-            <span>SECOND LIFE</span>
-            <h2>Where can recovered water go?</h2>
-          </div>
+        <h3>Reuse</h3>
 
-          <div className="reuse-grid">
+        <p>
+          Suitable water is directed towards approved non-drinking uses.
+        </p>
 
-            <div className="reuse-card">
-              <span>🌱</span>
-              <h3>Gardening</h3>
-              <p>Support plants and green spaces.</p>
-            </div>
+        <button className="learn-more-btn">
+          Learn More →
+        </button>
+      </div>
 
-            <div className="reuse-card">
-              <span>🧹</span>
-              <h3>Cleaning</h3>
-              <p>Support suitable cleaning activities.</p>
-            </div>
+    </div>
 
-            <div className="reuse-card">
-              <span>🚽</span>
-              <h3>Toilet Flushing</h3>
-              <p>Reduce demand for drinking-quality water.</p>
-            </div>
-
-            <div className="reuse-card">
-              <span>🐾</span>
-              <h3>Animal Water</h3>
-              <p>Support community animal water facilities.</p>
-            </div>
-
-          </div>
-
-        </div>
-      </section>
+  </div>
+</section>
 
       {/* IMPACT */}
       <section className="impact-section" id="impact">

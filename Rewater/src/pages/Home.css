@@ -654,3 +654,24 @@
     text-align: center;
   }
 }
+
+/* LEARN MORE BUTTON */
+
+.learn-more-btn {
+  margin-top: 18px;
+  padding: 11px 24px;
+  border: none;
+  border-radius: 25px;
+  background: #079aaa;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background: #057f8d;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
