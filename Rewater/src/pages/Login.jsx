@@ -1,10 +1,11 @@
 import "../styles/Login.css";
 
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../styles/Login.css";
 
 function Login() {
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -16,6 +17,7 @@ function Login() {
     console.log("Email:", email);
     console.log("Password:", password);
     console.log("Remember Me:", rememberMe);
+    navigate("/dashboard");
   };
 
   return (
